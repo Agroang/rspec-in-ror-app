@@ -9,4 +9,6 @@ describe Customer, type: :model do
     customer.name = 'Peter'
     expect(customer.name).to eq('Peter')
   end
+
+  it 'checks that modules from class work'
 end
